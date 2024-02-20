@@ -1,4 +1,7 @@
-class student extends course {
+class student  {
+    public String course[] = { "C#", "Applied statistics", "JAVA" };
+    public int marks[] = { 70, 100, 30 };
+
     public void Display() {
         String name = "Sanju";
         String program = "BCA";
